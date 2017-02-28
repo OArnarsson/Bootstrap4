@@ -6,6 +6,10 @@ html, body {
   color: #FAFAFA;
 }
 
+img {
+  max-width: 100%;
+}
+
 #cover {
   height: 100%;
   display: flex;
@@ -16,6 +20,28 @@ html, body {
 
   .coverCaption {
     width: 100%;
+  }
+}
+
+.content.container {
+  padding: 5rem 0;
+  .card-inverse {
+   background-color: #555;
+   border-color: #111;
+  }
+}
+
+.about {
+  padding: 4rem;
+  color: black; 
+  background: url('../img/programming.jpg') center no-repeat;
+
+  .container {
+    div {
+      padding: 2rem;
+      border-radius: 0.25rem;
+      background: rgba(#333, 0.8);
+    }
   }
 }
 
